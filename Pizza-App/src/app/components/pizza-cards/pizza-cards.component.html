@@ -1,0 +1,6 @@
+<mat-grid-list [cols]="breakPoint" rowHeight="500px" (window: resize)="onResize($event)">
+    @for (pizzaToRender of pizzas; track pizzas.length) {
+        <!-- render each pizza card -->
+         <app-pizza-card [pizza]="pizzaToRender" />                             
+    }
+</mat-grid-list>
