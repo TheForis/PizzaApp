@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Pizza-App": {
+    "pizza-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -52,7 +52,7 @@
               "src/assets"
             ],
             "styles": [
-              "@angular/material/prebuilt-themes/magenta-violet.css",
+              "@angular/material/prebuilt-themes/azure-blue.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -85,10 +85,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Pizza-App:build:production"
+              "buildTarget": "pizza-app:build:production"
             },
             "development": {
-              "buildTarget": "Pizza-App:build:development"
+              "buildTarget": "pizza-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -110,7 +110,7 @@
               "src/assets"
             ],
             "styles": [
-              "@angular/material/prebuilt-themes/magenta-violet.css",
+              "@angular/material/prebuilt-themes/azure-blue.css",
               "src/styles.scss"
             ],
             "scripts": []
